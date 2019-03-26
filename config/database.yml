@@ -17,3 +17,6 @@ test:
 production:
   <<: *default
   database: nomster_production
+  # username: nomster
+  # password: <%= ENV['NOMSTER_DATABASE_PASSWORD'] %>
+ 
